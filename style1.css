@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #17202A;
+}
+
+.imgbk-1 {
+    width: 100px;
+}
+
+.imgbk-2 {
+    width: 100px;
+}
+
+
+
+
+.module {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+
+
+
+
+}
+
+.module .img {
+    width: 600px;
+    border-radius: 15px;
+    border: none;
+}
+
+.module .fontsclass {
+    background-color: #283747;
+
+    border-radius: 15px;
+    border: none;
+    border-bottom: 1px solid red;
+
+}
+
+.fontsclass .font-a {
+    font-size: 20px;
+    color: #9CA3AF;
+    font-weight: 100px;
+    letter-spacing: 5px;
+
+
+}
+
+.fontsclass .font-c {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: '楷体';
+
+
+
+
+}
+
+.fontsclass .font-b {
+    color: #9CA3AF;
+
+
+
+}
+
+.fontsclass-a {
+    width: 570px;
+    height: 370px;
+    padding: 10px 0px 0px 20px;
+}
+
+@media (max-width: 900px) {
+    .img {
+
+        max-width: 300px;
+
+    }
+
+    .module .fontsclass {
+        width: 300px;
+
+    }
+
+
+
+
+}
